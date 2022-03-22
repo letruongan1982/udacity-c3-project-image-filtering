@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRES_HOST: uda-cs3-project-db.cvqbfou1i5rz.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: uda-cs3-project-db
+  AWS_BUCKET: uda-cs3-project-bucket
+  AWS_REGION: us-east-1
+  AWS_PROFILE: uda-prod
+  JWT_SECRET: uda-cs3-project
+  URL: http://localhost:8100
